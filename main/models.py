@@ -8,7 +8,7 @@ class Do_list(models.Model):
     information = models.TextField()
     pub_date = models.DateTimeField()
     modify_date = models.DateTimeField(null=True)
-    check = models.BooleanField(default=False)
+    check_list = models.BooleanField(default=False)
     state = models.BooleanField(default=True)
 
     def __str__(self):
